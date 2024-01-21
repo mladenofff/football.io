@@ -1,0 +1,71 @@
+body {
+    font-family: 'Sono', sans-serif;
+}
+
+.teams-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+}
+
+.team {
+    flex: 1 1 1;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.levski {
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.cska {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.ludogorets {
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.stadium {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.plan-features {
+    font-size: 30px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+button {
+    padding: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+
+@media (max-width: 1250px) {
+    .teams-container {
+        flex-direction: column;
+        height: 100%;
+    }
+}
